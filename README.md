@@ -57,6 +57,7 @@ A snapshot of the compromised Windows VM was captured using VMware. Volatility 3
 # Conclusion
 This memory analysis project successfully demonstrated the use of Volatility to investigate a compromised Windows machine. I identified a suspicious executable (TrustMe.exe), traced its origin to user interaction via explorer.exe, and observed its attempt to execute system commands through cmd.exe.
 Further investigation revealed an open SMB network connection, suggesting possible lateral movement within the environment. 
+
 This project highlights how even a single malicious process can reveal a larger attack chain when memory is properly analyzed. It emphasizes the value of tools like Volatility in providing deep visibility into the state of a system post-compromise.
 
 # Recommendations
